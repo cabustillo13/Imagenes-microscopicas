@@ -27,7 +27,7 @@ fig, ax = try_all_threshold(entropy_img, figsize=(10,8), verbose= False)
 plt.show()
 # Se concluye que se puede usar cualquiera: Minimum, Otsu, Mean o Isodata
 
-th = threshold_otsu(entropy_img)    # Devuelve un flotante a th
+th = threshold_otsu(entropy_img)    # Devuelve un flotante a th -> Nos devuelve el mejor valor para separar las 2 áreas
 binary = entropy_img <= th          # Convertir la imagen a binario
 plt.imshow(binary, cmap= "gray")
 plt.show()
