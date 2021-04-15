@@ -25,7 +25,6 @@ def visualizeImg(img, size, time):
     
 # Crear un pequeño vídeo uniendo varias imágenes
 def makeVideo():
-    
     image_folder = "./Resultados/"
     video_name = 'demo.avi'
     images = [img for img in os.listdir(image_folder) if img.endswith(".jpg")]
@@ -53,7 +52,7 @@ path = "./Imagenes/entropia/*.*"
 archivos = glob.glob(path)
 archivos.sort()
 
-for file in archivos:
+for file in glob.glob(path):
     
     img = io.imread(file)
     entropy_img = entropy(img, disk(3))
