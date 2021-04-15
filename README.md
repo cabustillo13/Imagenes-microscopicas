@@ -24,12 +24,14 @@ En el repositorio se encuentran distintas técnicas utilizadas en procesamiento 
 
 Como proyecto integrador realice una implementación del paper ***An introduction to the wound healing assay using live-cell microscopy***. Como se aprecia en las imágenes de entrada se va observando la variación de tamaño a lo largo de distintas instacias de tiempo.
 
+Se realizo una separación de las 2 texturas dentro de la imagen (célula viva y background), posteriormente se analizo la cantidad de píxeles del área que ocupaba la célula viva respecto a la cantidad total de píxeles en la imagen. 
+
 ### Paper
 - An introduction to the wound healing assay using live-cell microscopy.
 - Autores: James E N Jonkman , Judith A Cathcart, Feng Xu, Miria E Bartolini, Jennifer E Amon, Katarzyna M Stevens, Pina Colarusso.
 - Más información: [Ver enlace](https://pubmed.ncbi.nlm.nih.gov/25482647/)
 
-## Resultados
+## Resultados de entropiaAnalisis.py
 ### Vídeo de demostración
 ![Demo](https://github.com/cabustillo13/Imagenes-microscopicas/blob/main/Resultados/demo.gif)
 
