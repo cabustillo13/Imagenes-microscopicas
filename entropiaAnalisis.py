@@ -52,7 +52,7 @@ path = "./Imagenes/entropia/*.*"
 archivos = glob.glob(path)
 archivos.sort()
 
-for file in glob.glob(path):
+for file in archivos:
     
     img = io.imread(file)
     entropy_img = entropy(img, disk(3))
@@ -70,6 +70,8 @@ for file in glob.glob(path):
     time+=1
     
 plt.plot(time_list, porcentaje_list, "bo")
+plt.xlabel("Instancia de tiempo")
+plt.ylabel("Porcentaje del área de la célula")
 plt.show()
 
 # Para realizar una regresión lineal
