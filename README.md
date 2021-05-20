@@ -42,7 +42,7 @@ Se realizo una separación de las 2 texturas dentro de la imagen (célula viva y
 ![Terminal](https://github.com/cabustillo13/Imagenes-microscopicas/blob/main/Resultados/resultadoTerminal.png)
 
 ## Wiki
-Comentarios valiosos en la Wiki: ![Ver Wiki](https://github.com/cabustillo13/Imagenes-microscopicas/wiki)
+Comentarios valiosos en la Wiki: [Ver Wiki](https://github.com/cabustillo13/Imagenes-microscopicas/wiki)
 
 ## Bibliografía
 Consulte las fuente de información de [Sreenivas Bhattiprolu](https://github.com/bnsreenu).
